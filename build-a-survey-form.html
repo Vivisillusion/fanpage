@@ -1,0 +1,117 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Your favourite Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+    <h1 id="title">Your favourite Song</h1>
+    <p>Let's find out your favourite song</p>
+      <a href="https://images.pexels.com/photos/7896558/pexels-photo-7896558.jpeg" target="_blank">
+  <img class="hero-img" src="https://images.pexels.com/photos/7896558/pexels-photo-7896558.jpeg" alt="A person listening to music lying on its back.">
+</a>  
+    </section>
+    <form method="post" action='https://register-demo.freecodecamp.org' id="survey-form">
+    <section>
+        <h2>My Favourite Songs:</h2>
+        
+        <ul>
+          <li>Save Yourself, I’ll Hold Them Back by My Chemical Romance
+</li>
+          <li>Meet Me At Our Spot by WILLOW, THE ANXIETY, Tyler Cole</li>
+          <li>Rema - Calm Down</li>
+        </ul>
+        <figure>
+          <img img class="responsive-img" src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg" alt="A concert.">
+          <figcaption>I <em>love</em> cocerts.</figcaption>  
+        </figure> 
+      <fieldset>
+       <header>
+        <h2 id="title">Survey Form</h2>
+        <p id="description">Please fill out this form with the required information: </p>
+        </header>
+        <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" name="age" placeholder="Enter age" min="18" max="120" required>
+<br>
+    <label>What is your favorite hobby? (check all that apply)</label>
+    <br>
+    <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+    <label for="hobby1">Reading</label>
+    <br>
+    <input type="checkbox" id="hobby2" name="hobby2" value="sports">
+    <label for="hobby2">Sports</label>
+    <br>
+    <input type="checkbox" id="hobby3" name="hobby3" value="music">
+    <label for="hobby3">Music</label>
+    <br>
+    <label for="comments">What's your favourite song:</label>
+    <br>
+    <textarea id="comments" name="comments"></textarea>
+     <label for="dropdown">What is your favorite color?</label>
+  <select id="dropdown" name="color">
+    <option value="" disabled selected>Select a color</option>
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select>
+
+  <fieldset>
+    <legend>What is your favorite genre of music?</legend>
+    <input type="radio" id="genre1" name="genre" value="rock">
+    <label for="genre1">Rock</label>
+
+    <input type="radio" id="genre2" name="genre" value="pop">
+    <label for="genre2">Pop</label>
+
+    <input type="radio" id="genre3" name="genre" value="hiphop">
+    <label for="genre3">Hip Hop</label>
+  </fieldset>
+
+  <label for="comments">Additional comments:</label>
+  <textarea id="comments" name="comments"></textarea>
+
+    <label>What is your favorite animal?</label>
+    <br>
+    <input type="radio" id="dog" name="animal" value="dog">
+    <label for="dog">Dog</label>
+    <br>
+    <input type="radio" id="cat" name="animal" value="cat">
+    <label for="cat">Cat</label>
+    <br>
+    <input type="radio" id="other" name="animal" value="other">
+    <label for="other">Other</label>
+      </fieldset>
+      <fieldset>
+        <h2>Song Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+      
+      <fieldset>
+        <label>Upload a profile picture:<input type="file"/></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id ="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
+
+
+
+** end of index.html **
+
+
