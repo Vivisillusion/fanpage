@@ -105,3 +105,33 @@ img {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
 }
+nav {
+  width: 200px;              /* Restricts width */
+  flex-shrink: 0;            /* Prevents shrinking on smaller screens */
+  background-color: #0d0d0d;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #333;
+  height: 100vh;             /* Full vertical stretch */
+  box-sizing: border-box;
+  position: fixed;           /* Keep it locked to the left */
+  left: 0;
+  top: 0;
+}
+main {
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+  margin-left: 200px;      /* Must match nav width */
+  padding: 2rem;
+  width: calc(100% - 200px); /* Prevent content from overlapping sidebar */
+  box-sizing: border-box;
+}
+
